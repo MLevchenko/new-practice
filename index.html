@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>U Tours</title>
+    <link rel="stylesheet" href="css/customers-section.css">
 </head>
 
 <body>
     <section>
         <!--Customers' Section...add Carousel-->
-        <div>
-            <img width="600px" src="img/carousel-img1.jpg" alt="Ahmed Helmy">
+        <div class="customer-image">
+            <img src="img/carousel-img1.jpg" alt="Ahmed Helmy">
+        </div>
+        <div id="customers-text-block">
             <h2>Our customers say</h2>
             <p>I was happy to travel with U Tours. Best guides ever. Trip was perfectly organized.</p>
             <h3>Ahmed Helmy</h3>
@@ -19,6 +22,8 @@
         </div>
         <div>
             <img width="600px" src="img/carousel-img2.jpg" alt="Geff Gordons">
+        </div>
+        <div id="customers-text-block">
             <h2>Our customers say</h2>
             <p>Last year I travelled with U Tours for the first time. It was great time in Kyiv and Chornobyl so I
                 decided <br>
@@ -30,6 +35,8 @@
         </div>
         <div>
             <img width="600px" src="img/carousel-img3.jpg" alt="Elisabeth Smith">
+        </div>
+        <div id="customers-text-block">
             <h2>Our customers say</h2>
             <p>U Tours is a reliable company that provides exlusive tours for their clients.<br>
                 Thanks a lot for a great expirience in Ukraine</p>
@@ -38,29 +45,32 @@
         </div>
     </section>
 
-    <section>
+    <section class="ready-section">
         <!--Ready to Go Section...add background image and button...hoover for button-->
         <h2>Ready to Go to Ukraine?</h2>
-        <p>Press the button and get the individual offer with the best price on the selected tour!</p>
-        <a href="#">REQUEST A QUOTE</a>
+        <p class="ready-section-text">Press the button and get the individual offer with the best price on the selected
+            tour!</p>
+        <a href="#Contacts" class="button">REQUEST A QUOTE</a>
     </section>
-    <section>
+    <section class="form-section">
         <!--Form Section...To fix image and form-block...hover for button-->
-        <img width="600px" src="img/odesa.jpg" alt="Odesa Opera Theatre">
-        <h2>Let's Travel!</h2>
-        <p>Hurry up and enjoy the tour around most spectacular places in Ukraine!</p>
-        <form action="https://formspree.io/f/xxybrkqv" method="POST">
-            <input name="name" type="text" placeholder="Name" required><br>
-            <input name="phone-number" type="text" placeholder="Phone number" required><br>
-            <input name="email" type="text" placeholder="Email" required><br>
-            <button type="submit">SEND</button>
-        </form>
+        <img class="form-image" width="600px" src="img/odesa.jpg" alt="Odesa Opera Theatre">
+        <div id="form-text-block">
+            <h2 class="form-heading">Let's Travel!</h2>
+            <p class="form-text">Hurry up and enjoy the tour around <br> most spectacular places in Ukraine!</p>
+            <form action="https://formspree.io/f/xxybrkqv" method="POST">
+                <input class="form-input" name="name" type="text" placeholder="Name" required><br>
+                <input class="form-input" name="phone-number" type="text" placeholder="Phone number" required><br>
+                <input class="form-input" name="email" type="text" placeholder="Email" required><br>
+                <button id="form-button" class="button" type="submit">SEND</button>
+            </form>
+        </div>
     </section>
     <footer>
         <!--Footer Section...To fix links and layout...hoover for menu and logo(insta?)-->
-        <section>
-            <img src="img/logo-footer.png" alt="U Tours Logo">
-            <ul>
+        <section class="footer-section">
+            <img class="footer-logo" src="img/logo-footer.png" alt="U Tours Logo">
+            <ul class="footer-block">
                 <li>Our Tours</li>
                 <li>Services</li>
                 <li>Reviews</li>
@@ -68,17 +78,20 @@
                 <li>Contacts</li>
             </ul>
             <div>
-                <h3>Follow Us</h3>
+                <h3 id="follow-media">Follow Us</h3>
                 <a href="https://www.facebook.com/"><img width="50" src="img/logo-facebook.png" alt="Facebook Logo"></a>
                 <a href="https://www.instagram.com/"><img width="50" src="img/logo-insta.jpg" alt="Instagram Logo"></a>
                 <a href="https://www.youtube.com/"><img width="50" src="img/logo-youtube.png" alt="Youtube Logo"></a>
             </div>
             <div>
-                <p>© Created by team 2</p>
-                <p>All rights Reserved</p>
+                <p class="copyright">© Created by team 2</p>
+                <p class="copyright">All rights Reserved</p>
             </div>
         </section>
     </footer>
 </body>
 
 </html>
+
+
+

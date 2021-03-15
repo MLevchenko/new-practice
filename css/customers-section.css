@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+body {
+    background-color: black;
+    --headline-font: Dosis, sans-serif;
+    --text-font: Roboto, sans-serif;
+    --black: #141414;
+    --white: #ffffff;
+    --blue: #24b8f1;
+    --orange: #f1c324;
+}
+h2 {
+    font-family: var(--headline-font);
+    font-size: 48px;
+    color: var(--black);
+}
+p {
+    font-family: var(--text-font);
+    font-size: 20px;
+    color: var(--black);
+}
+h3 {
+     font-family: var(--headline-font);
+     font-size: 25px; 
+     color: var(--black); 
+}
+h5 {
+    font-family: var(--text);
+    font-size: 15px;
+    color: var(--blue);  
+}
+.customer-image {
+    width: 600 px;
+}
+#customers-text-block {
+    background-color: #ffffff;
+    text-align: center;
+}
+.ready-section {
+    background-image: url(/img/maidan.jpg);
+    height: 600px;
+    text-align: center;
+}
+.ready-section-text {
+    color: var(--white);
+}
+.button {
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--white);
+    width: 104px;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    background-color: var(--blue);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: var(--orange);
+}
+.form-section {
+
+}
+.form-image {
+
+}
+#form-text-block {
+    background-color: #FFFFFF0F;
+    text-align: center;
+}
+.form-heading {
+    color: var(--orange);
+}    
+.form-text {
+color: var(--white);
+}
+.form-input {
+    background-color: #ffffff21;
+    text-align: left;
+    border: none;
+    
+}
+#form-button {
+    background-color: var(--orange);
+}
+#form-button:hover {
+    background-color: var(--blue);
+}
+.footer-section {
+}
+.footer-logo {
+
+}
+.footer-block {
+    font-family: var(--text-font);
+    font-size: 17px;
+    color: var(--white);
+    list-style-type: none;
+}
+.footer-block:hover {
+    color: var(--orange);;
+}
+#follow-media {
+    color: var(--white);
+}
+.copyright {
+    font-family: var(--text-font);
+    font-size: 14px;
+    color: var(--white);
+}
